@@ -24,7 +24,7 @@ public class TipoLinkAfferisce {
 		return dataAfferenza;
 	}
 	
-	public equals(Object o) {
+	public bool equals(Object o) {
 		if (o!=null && getClass().equals(o.getClass())) {
 			TipoLinkAfferisce a=(TipoLinkAfferisce)o;
 			return a.getImpiegato()==impiegato && a.getDipartimento()==dipartimento;
